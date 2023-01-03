@@ -7,7 +7,7 @@ import EmojiPicker from "emoji-picker-react";
 import icon from "../../images/emoji.svg";
 import Messages from "../Messages/Messages";
 
-const socketio = io.connect("http://localhost:5000");
+const socketio = io.connect("https://char-room-server-abid.onrender.com");
 
 const Chat = () => {
   const [state, setState] = useState([]);
