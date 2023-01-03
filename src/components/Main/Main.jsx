@@ -18,8 +18,6 @@ const Main = () => {
     setValues({ ...values, [name]: value });
   };
 
-  console.log(values);
-
   const handleClick = (e) => {
     const isDisabled = Object.values(values).some((v) => !v);
 
